@@ -1,0 +1,49 @@
+/* Page.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .boardList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .boardItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boardImage {
+    margin-right: 20px;
+  }
+  
+  .boardName {
+    flex-grow: 1;
+    font-size: 1.2rem;
+  }
+  
+  .viewPinsButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .viewPinsButton:hover {
+    background-color: #005bb5;
+  }
+  
